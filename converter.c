@@ -7,9 +7,7 @@
  * @lowercase: flag if hexa values need to be lowercase
  * Return: result string
  */
-
 char *convert(unsigned long int num, int base, int lowercase)
-
 {
 	static char *rep;
 	static char buffer[50];
@@ -21,12 +19,9 @@ char *convert(unsigned long int num, int base, int lowercase)
 	ptr = &buffer[49];
 	*ptr = '\0';
 	do {
-
 		*--ptr = rep[num % base];
 		num /= base;
-
 	} while (num != 0);
 
 	return (ptr);
-
 }

@@ -10,13 +10,9 @@
  * printing function
  * Return: a pointer to the matching printing function
  */
-
 int (*get_print(char s))(va_list, flags_t *)
-
 {
-
 	ph func_arr[] = {
-
 		{'i', print_int},
 		{'s', print_string},
 		{'c', print_char},
@@ -31,18 +27,13 @@ int (*get_print(char s))(va_list, flags_t *)
 		{'S', print_bigS},
 		{'p', print_address},
 		{'%', print_percent}
-
 		};
-
 	int flags = 14;
 
 	register int i;
 
 	for (i = 0; i < flags; i++)
-
 		if (func_arr[i].c == s)
-
 			return (func_arr[i].f);
 	return (NULL);
-
 }
