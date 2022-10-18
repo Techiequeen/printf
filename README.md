@@ -1,6 +1,6 @@
 # 0x11. C - printf
 
-his README file is for the alx printf collaboration project
+his README file is for the ALX printf collaboration project
 Teamwork Makes the Dream Work-ALX Collaboration Project. As a team, we are writing printf functions of our own. We are to come up with our prototypes for the rest of the tasks, an example of which you will find below;
 
 Example
