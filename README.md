@@ -27,7 +27,7 @@ Below are lists of the required tasks to achieve the oblectives:
 
 5 - Handle the following custom conversion specifier: s (prints the string).
 
-6 - Handle the following conversion specifier: p.
+6 - Handle the pointer conversion specifier: p.
 
 7 - Handle the following flag characters for non-custom conversion specifiers: +, space, #.
 
